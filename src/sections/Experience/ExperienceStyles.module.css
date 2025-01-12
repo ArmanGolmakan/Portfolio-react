@@ -34,15 +34,13 @@
     margin: 0 auto;
   }
 
-  ul {
-    padding: 32px 0 0 0;
+  div {
+    margin-top: 16px;
     max-width: 600px;
-    font-size: 16px;
-    list-style-type: square;
   }
 
-  li {
-    padding: 16px 0 0 0;
+  p {
+    font-size: 16px;
   }
 }
 
