@@ -11,23 +11,21 @@ function Experience() {
       <div className={styles.experienceContainer}>
         <ExperienceCard
           src={bmo}
-          position="Full Stack Developer"
+          position="React Developer"
           companyName="Bank of Montreal"
-          desc="Developed and maintained web applications using React.js for the front end and Node.js/Express.js for the back end."
+          desc="Developed responsive, user-centric web interfaces using React.js, with a strong focus on performance, accessibility, and clean UI/UX design."
         />
         <ExperienceCard
           src={caseware}
-          position="Front End Developer"
+          position="Front End Angular Developer"
           companyName="Caseware"
-          desc="Developed auditing web applications using Angular framework and managed unexpected
-behavior of implemented functionality by writing tests."
+          desc="Built and maintained auditing web applications with Angular, proactively identifying and resolving functional issues by writing comprehensive tests to ensure consistent performance."
         />
         <ExperienceCard
           src={biosa}
           position="Web Developer"
           companyName="BioSA Lab"
-          desc="Researched computer vision and various detection and monitoring applications for AMD (Age
-Related Macular Degeneration)"
+          desc="Developed web applications using HTML, CSS, and JavaScript to support the diagnosis and monitoring of Age-Related Macular Degeneration (AMD), with a focus on applying computer vision research to real-world healthcare solutions."
         />
       </div>
     </section>
