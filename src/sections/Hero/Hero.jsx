@@ -4,8 +4,6 @@ import instagramDark from "../../assets/instagram-dark.svg";
 import githubDark from "../../assets/gh.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 
-import CV from "../../assets/cv.pdf";
-
 function Hero() {
   const instagramIcon = instagramDark;
   const githubIcon = githubDark;
@@ -37,15 +35,10 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Hi there! I'm Arman, a software developer based in Toronto. I enjoy
-          building softwares, websites, games, basically anything to do with
-          coding.
+          Hi there! I'm a full-stack developer specializing in front-end magic
+          using React. I love building clean, user-friendly web apps and
+          crafting smooth, intuitive UI/UX experiences.
         </p>
-        <a href={CV}>
-          <button className="hover" download>
-            Resume
-          </button>
-        </a>
       </div>
     </section>
   );
